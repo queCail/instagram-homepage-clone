@@ -1,0 +1,172 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #FAFAFA;
+}
+
+section{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 95px;
+    justify-content: center;
+    align-content: center;
+    padding: 85px 0 0;
+    background-color: #FAFAFA;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FAFAFA;
+}
+
+.img-container{
+    margin: 20px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    min-width: 360px;
+}
+
+.acc-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.acc-info img{
+    max-width: 175px;
+    max-height: 51px;
+    margin: 50px 0 30px 0;
+    align-self: center;
+}
+
+
+.acc-info input{
+    border: 1px solid rgb(200, 200, 200);
+    margin: 3px 28px;
+    background-color: #FAFAFA;
+    color: black;
+    border-radius: 3px;
+    height: 33px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.acc-info input::placeholder{
+    color: rgb(133, 133, 133);
+}
+
+.acc-info .login-button{
+    background-color: #b2dffc;
+    color: #ffffff;
+    margin: 8px  28px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    height: 33px;
+    text-align: center;
+}
+
+.acc-info h5{
+    display: flex;
+    align-self: center;
+}
+
+.acc-info h5::after{
+    content: "";
+    height: 1px;
+    width: 130px;
+    background-color: rgb(133, 133, 133);
+    position: relative;
+    align-self: center;
+    margin-left: 8px;
+}
+
+.acc-info h5::before{
+    content: "";
+    height: 1px;
+    width: 130px;
+    background-color: rgb(133, 133, 133);
+    position: relative;
+    align-self: center;
+    margin-right: 8px;
+}
+
+.acc-info .facebook-button{
+    text-decoration: none;
+    color: #385185;
+    font-size: 15px;
+    margin-bottom: 19px;
+    font-weight: bold;
+}
+
+.acc-info .password-button{
+    text-decoration: none;
+    color: #00376B;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+
+.acc-info p .signup-button{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.acc-info h5{
+    color: rgb(133, 133, 133);
+    margin-top: 10px;
+}
+
+
+.acc-info p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.download div{
+    margin: 8px;
+    font-size: 12;
+}
+
+.download-buttons img{
+    height: 40px;
+    width: 136;
+}
+
+footer div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 430px;
+    padding: 0;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    margin: 8px;
+}
